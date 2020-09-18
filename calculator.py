@@ -1,6 +1,6 @@
 from tkinter import *
 
-print('Started')
+print('Started...')
 
 class Calculator:
     def __init__(self, master):
@@ -59,7 +59,7 @@ class Calculator:
             else:
                 self.lbl_res['text'] = 'Division by zero'
         else:
-            self.lbl_res['text'] = 'Error entered data'
+            self.lbl_res['text'] = 'Error entered data...'
         
 
     def is_digit(self, s):
