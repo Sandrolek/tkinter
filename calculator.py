@@ -49,7 +49,7 @@ class Calculator:
         if self.check_enter():
             self.lbl_res['text'] = str(float(self.s1) - float(self.s2))
         else:
-            self.lbl_res['text'] = 'Error entered data'
+            self.lbl_res['text'] = 'Error entered data...'
 
     def div(self, event):
         print('Division')
